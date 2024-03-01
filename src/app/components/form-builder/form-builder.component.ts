@@ -35,6 +35,12 @@ export class FormBuilderComponent implements OnInit {
 
   }
 
+  // onChange(event: any) {
+  //   console.log(event);
+  //   if (['addComponent', 'saveComponent', 'deleteComponent'].indexOf(event.type) > -1) {
+  //     this.form = cloneDeep(event.form);
+  //   }
+  // }
 
   @ViewChild('FormBilder')
   FormBilder: any;
@@ -63,3 +69,5 @@ export class FormBuilderComponent implements OnInit {
     }
   }
 }
+
+

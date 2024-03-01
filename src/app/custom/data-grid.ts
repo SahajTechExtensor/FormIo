@@ -6,7 +6,7 @@ export class DataGrid extends Components.components.htmlelement {
             label: 'syncfusion Data Grid',
             type: 'htmlelement',
             tag: 'ejs-grid',
-            attrs: ['dataSource'],
+            attrs: [],
             // attributes: [{
             //           OrderID: 10248, CustomerID: 'VINET', EmployeeID: 5, OrderDate: new Date(8364186e5),
             //           ShipName: 'Vins et alcools Chevalier', ShipCity: 'Reims', ShipAddress: '59 rue de l Abbaye',
@@ -29,7 +29,7 @@ export class DataGrid extends Components.components.htmlelement {
             //       ShipRegion: 'CJ', ShipPostalCode: '44087', ShipCountry: 'Germany', Freight: 11.61, Verified: !1
             //   },]+'></ejs-grid>',
             content: '',
-            input: false,
+            input: true,
             persistent: false
         });
     }
